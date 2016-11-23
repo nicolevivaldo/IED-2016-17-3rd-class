@@ -18,7 +18,7 @@
 
 - The basic of the HTML and DOM.
 - Practice on HTML structuring a first basic document of your portfolio.
-- "Start Here" and "Conversation" paradigms
+- **Start Here** and **Conversation** paradigms
 
 
 ## Assignment
