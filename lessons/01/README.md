@@ -26,3 +26,8 @@
 - Research: find 3 top portfolio from your point of view
 - For each one outline the motivation, the reasons and features you want to highlight
 - Delivery a benchmark PDF with screenshot and annotations about the features.
+
+
+## Further reading
+
+- [HTML reference](https://developer.mozilla.org/en/docs/Web/HTML/Element)
