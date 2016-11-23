@@ -1,4 +1,4 @@
-# Digital Mockup in Browser - Personal portfolio - 
+# Digital Mockup in Browser - Personal portfolio 
 
 ### Graphic Design - IED Torino 2016/17 - 3nd yr
  
