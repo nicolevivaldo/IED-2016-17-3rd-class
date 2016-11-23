@@ -2,7 +2,8 @@
 
 ## Course introduction, tools and methodology
 
-- Final goal: Design and build your own portfolio
+- Goal: Design and build your own portfolio
+- Brackets and Chrome
 - Approach: Content-first and Mobile-first
 - Methodology: Agile, MVP and iteration based
 - Evaluation: based on:
