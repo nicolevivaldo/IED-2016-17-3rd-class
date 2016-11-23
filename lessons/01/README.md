@@ -3,14 +3,14 @@
 ## Course introduction, tools and methodology
 
 - Goal: Design and build your own portfolio
-- Brackets and Chrome
+- Tools: Brackets and Chrome
 - Approach: Content-first and Mobile-first
 - Methodology: Agile, MVP and iteration based
 - Evaluation: based on:
     - Commitment
     - Homeworks
     - Quality of the final project
-- Language: English for all text
+- Language: English for all content
 - [Previous projects](https://github.com/Prototypon/IED-2015-16-3rd-class) 
 
 
