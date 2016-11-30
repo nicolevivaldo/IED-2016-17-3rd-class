@@ -11,14 +11,13 @@
 - CSS properties
     - font-*
     - color, background
-    - list
     - boxes: padding, margin, border
-    - ** display
-    - ** position
+
 
 ## Lesson goal
 
-- The basic of the CSS technology.
+- Review of the assignments, brief personal benckmark preso
+- Learn the basic of the CSS technology.
 - Practice on style elements using CSS selection and properties in order to be able to implement a basic layout with common applied styles.
 
 
