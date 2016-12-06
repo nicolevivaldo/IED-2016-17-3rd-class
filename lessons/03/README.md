@@ -11,7 +11,7 @@
 ## Lesson goal
 
 - Review of the exercise assignment
-- Explanation of the correct [implementation](exercises/price_mockup.html)
+- Explanation of the correct [HTML implementation](exercises/price_mockup.html) and [CSS implementation](exercises/price_mockup.css)
 - Learn further CSS properties.
 - Practice on style elements using CSS selection and properties in order to be able to implement a basic layout with common applied styles.
 
