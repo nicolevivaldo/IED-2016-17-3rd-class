@@ -12,9 +12,5 @@ The folder ```lessons``` contains for each lesson the relevant information along
 ## Lessons
 
 - [Lesson 01: Introduction and HTML basic](lessons/01)
-- [Lesson 02: CSS the basic styling](lessons/02)
-- [Lesson 03: CSS media query](lessons/03)
-- [Lesson 04: CSS flex layout](lessons/04)
-- [Lesson 05: CSS transition and interaction](lessons/05)
-- [Lesson 06: JS with TweenMax](lessons/06)
-- [Lesson 07: Wrapping up](lessons/07)
+- [Lesson 02: CSS the basic](lessons/02)
+- [Lesson 03: CSS the box model](lessons/03)
