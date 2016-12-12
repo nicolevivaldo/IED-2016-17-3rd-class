@@ -14,3 +14,7 @@ The folder ```lessons``` contains for each lesson the relevant information along
 - [Lesson 01: Introduction and HTML basic](lessons/01)
 - [Lesson 02: CSS the basic](lessons/02)
 - [Lesson 03: CSS the box model](lessons/03)
+- [Lesson 04: CSS the conditional model](lessons/04)
+- [Lesson 05: ](lessons/05)
+- [Lesson 06: ](lessons/06)
+- [Lesson 07: ](lessons/07)
