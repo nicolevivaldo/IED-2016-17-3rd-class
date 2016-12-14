@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+  width:100%;
+  height:100%;
+}
+body{
+    display:flex;   
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+section{
+    flex:1;
+}
+
+#left{
+    background-image: url('http://lorempixel.com/400/400/people/1/');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#toolbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#toolbar #pro{
+    background-color: #333;
+    color:white;
+    font-size: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .2rem .9rem;
+    border-radius: .8rem;
+}
+
+#toolbar .line{
+    width: .7rem;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: .15rem;
+}
+
+#right{
+    display:flex;
+    flex-direction:column;
+}
+
+#right > *{
+    flex:1;   
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#right article{
+    display:flex;
+    flex-direction: row;
+}
+
+#right header h1{
+    margin-bottom: 0;   
+}
+#right header p{
+    margin-top: .4rem;
+    font-size: .8rem;
+}
+#right header a{
+    color: #777;
+    text-decoration: none;
+}
+
+#right article{
+    justify-content: space-around;
+}
+
+#right .column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#right .column p{
+    color: #999;
+    font-size: .75rem;
+    margin: 0;
+}
+#right .column h3{
+    font-size:1.5rem;
+    margin: 0;
+    margin-top: .5rem;
+}
+
+#right footer a{
+    background-color: #333;
+    color:white;
+    font-size: .6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+}
