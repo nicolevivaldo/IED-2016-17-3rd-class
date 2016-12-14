@@ -3,8 +3,8 @@
 
 ## CSS Conditional Model
 
+- flex (again)
 - media query
-- grid layout
 - transition
 
 ## Lesson goal
@@ -18,6 +18,7 @@
 ## Next assignment
 
 - Implement the attached mockup using what you've learnt with HTML and CSS
-- Delivery the working prototypeon Drive the day before the next lesson. 
+- Delivery the working prototype on Drive the day before the next lesson. 
+- Start to implements some CSS/Layout also to your personal portfolio
 
 ![](hero_mockup.jpg)
