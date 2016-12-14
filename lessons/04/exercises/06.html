@@ -1,0 +1,50 @@
+<html>
+
+    
+    <head>
+        
+        <style>
+            
+            #a{
+                background-color: orange;
+                flex:1;
+            }
+            
+            #b{
+                background-color: skyblue;
+                flex:1;
+            }
+            
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            @media (min-width:500px){
+                body{
+                    flex-direction: row;
+                    font-size: 30px;
+                }
+            }
+            
+            @media (min-width:800px){
+                body{
+                    font-size: 80px;
+                }
+            }
+            
+        
+        </style>
+
+    </head>
+
+    
+    <body>
+    
+            <div id="a">A</div>
+            <div id="b">B</div>
+        
+    </body>
+
+
+</html>
