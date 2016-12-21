@@ -1,0 +1,173 @@
+<html>
+    
+    <head>
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            #welcome{
+                display: flex;
+                flex-direction:column;
+                background-color: antiquewhite;
+                align-items:center;
+                justify-content: center;
+                height: 400px;
+                
+            }
+            
+            #welcome h1{
+                border-bottom: 4px solid blue;
+                color: blue;
+            }
+            
+            
+            
+            #skills{
+                display: flex;
+                flex-direction:column;
+                background-color: burlywood;
+                align-items:center;
+                justify-content: center;
+                height: 400px;
+            }
+            
+            #skill_container{
+                display: flex;
+            }
+            
+            #skill_container .left{
+                flex:1;
+            }
+            #skill_container .right{
+                flex:1;
+            }
+            
+            
+            #gallery{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: azure;
+            }
+            
+            .thumb{
+                width:100%;
+            }
+            
+            @media(min-width:500px){
+                .thumb{
+                    width:50%;
+                }
+            }
+            
+            .thumb img{
+                width: 100%;
+            }
+            
+            
+            #contact{
+                display: flex;
+                flex-direction:column;
+                background-color: antiquewhite;
+                align-items:center;
+                justify-content: center;
+                height: 200px;
+            }
+            
+            
+            #alert{
+                padding: 20px;
+                position: fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                font-size:40px;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        
+        <div id="welcome">
+            
+            <h1>Nome Cognome</h1>
+            <p>sono pippo e pluto</p>
+        
+        </div>
+        
+        <div id="skills">
+        
+            <h1>Skills</h1>
+            
+            <div id="skill_container">
+                
+                <ul class="left">
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                </ul>
+                
+                <ul class="right">
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                    <li>dsadasda</li>
+                </ul>
+            
+            </div>
+        
+        </div>
+        
+        
+        <div id="work">
+            
+            <div id="gallery">
+                
+                <div class="thumb">
+                    <img src="http://lorempixel.com/200/200/"/>
+                </div>
+                <div class="thumb">
+                    <img src="http://lorempixel.com/100/100/"/>
+                </div>
+                <div class="thumb">
+                    <img src="http://lorempixel.com/200/200/"/>
+                </div>
+                <div class="thumb">
+                    <img src="http://lorempixel.com/200/200/"/>
+                </div>
+                <div class="thumb">
+                    <img src="http://lorempixel.com/200/200/"/>
+                </div>
+                <div class="thumb">
+                    <img src="http://lorempixel.com/200/200/"/>
+                </div>
+            
+            
+            </div>
+        
+        </div>
+        
+        
+        
+        <div id="contact">
+        
+            <h3>Contact</h3>
+            <p>tel: 213765432</p>
+            
+        </div>
+        
+        
+        <div id="alert">
+            Hello!
+        </div>
+    
+    
+    </body>
+
+
+</html>
