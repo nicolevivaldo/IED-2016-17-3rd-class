@@ -1,0 +1,82 @@
+<html>
+    
+    <head>
+    
+        <style>
+            
+            
+            
+            .item{
+                width:33%;
+                position: relative;
+                display: inline-block;
+            }
+            
+            .item img{
+                width: 100%;
+            }
+            
+            .dida{
+                background-color: rgba(0,0,0,.5);
+                color:white;
+                text-align: center;
+                
+                position: absolute;
+                top:0px;
+                left:0px;
+                width: 100%;
+                height: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+                transition: all 1s;
+                
+                opacity: 0;
+            }
+            
+            .dida h3{
+                border-bottom: 2px solid #fff;
+                transform: translate(0, -50px);
+                transition: all 1s;
+            }
+            
+            .item:hover .dida{
+                opacity: 1;
+            }
+            
+            .item:hover h3{
+                transform: translate(0, 0);
+            }
+        
+        </style>
+        
+    </head>
+    
+    <body>
+    
+        <div class="item">
+            <img src="http://lorempixel.com/400/300/sports/" />
+            
+            <div class="dida">
+                <h3>titolo</h3>
+                <p>Descrizione</p>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="http://lorempixel.com/400/300/sports/" />
+            
+            <div class="dida">
+                <h3>titolo</h3>
+                <p>Descrizione</p>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+
+</html>
