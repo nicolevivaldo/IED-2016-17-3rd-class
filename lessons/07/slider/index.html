@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bxslider/jquery.bxslider.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/bxslider/jquery.bxslider.css">
+
+		<style type="text/css">
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				overflow-x: none; 
+			}
+			.bxslider img{
+				width: 100%;
+			}
+
+			.container{
+				width:500px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+			<ul class="bxslider">
+			  <li><img src="http://lorempixel.com/400/200/sports/" /></li>
+			  <li><img src="http://lorempixel.com/400/200/sports/" /></li>
+			  <li><img src="http://lorempixel.com/400/200/sports/" /></li>
+			  <li><img src="http://lorempixel.com/400/200/sports/" /></li>
+			</ul>
+		</div>
+
+		
+
+		<a href="http://bxslider.com/examples">more examples</a>
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+			  $('.bxslider').bxSlider();
+			});
+
+		</script>
+
+
+
+
+	</body>	
+</html>

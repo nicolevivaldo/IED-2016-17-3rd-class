@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<script src="js/jquery.js"></script>
+		
+		<style type="text/css">
+            
+            *{
+                box-sizing: border-box;
+            }
+            
+            
+			html, body{
+				width: 100%;
+                height: 100%;
+                overflow: auto;
+				padding: 0;
+				margin: 0;
+			}
+            
+            main{
+                width: 100%;
+				height: 400%;
+                display: flex;
+				flex-direction:column;
+            }
+			
+			section{
+				width: 100%;
+				height: 100%;
+				color:white;
+				font-family: sans-serif;
+				font-size: 30px;
+				display: flex;
+				align-items:center;
+				justify-content:center;
+			}
+            
+            
+            article{
+                width: 100%;
+                height: 100%;
+                padding: 50px;
+                background-color: yellow;
+                line-height: 70px;
+                left:0;
+                top:0;
+                
+                transition: all .6s cubic-bezier(0, 1, 1, 1);
+                transform: translate(0, 100%);
+                opacity:0;
+                
+                overflow: auto;
+                
+                position: fixed;
+            }
+            
+            article:target{
+                opacity:1;
+                transform: translate(0, 0);
+            }
+            
+            
+            
+            
+
+			#a{
+				background-color: orange;
+			}
+			#b{
+				background-color: blue;
+			}
+			#c{
+				background-color: green;
+			}
+			#d{
+				background-color: purple;
+			}
+
+
+            
+            
+		</style>
+
+	</head>
+
+	<body>
+
+		
+
+
+        <main>
+            <section id="a"><a href="#pop1">Pop1</a></section>
+
+
+            <section id="b"><a href="#pop2">Pop2</a></section>
+
+
+            <section id="c"><a href="#pop1">Pop3</a></section>
+
+
+            <section id="d">D</section>
+        </main>
+        
+        
+        <article id="pop1">
+            <a href="#">close</a>
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+        </article>
+        
+        <article id="pop2">
+            <a href="#">close</a>
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+            
+        </article>
+
+
+
+
+
+	</body>	
+</html>
